@@ -1,0 +1,54 @@
+{
+  "name": "pacnolasco-portfolio",
+  "version": "1.0.0",
+  "description": "Professional portfolio and CV website for Pac Nolasco",
+  "main": "index.html",
+  "scripts": {
+    "start": "python -m http.server 8000",
+    "dev": "python -m http.server 8000",
+    "serve": "python -m http.server 8000",
+    "build": "echo 'No build step required for static site'",
+    "deploy": "echo 'Deploy to GitHub Pages: git push origin main'",
+    "test": "echo 'Open index.html in browser to test'",
+    "lint:html": "echo 'Install htmlhint: npm install -g htmlhint'",
+    "lint:css": "echo 'Install stylelint: npm install -g stylelint'",
+    "lint:js": "echo 'Install eslint: npm install -g eslint'",
+    "optimize:images": "echo 'Install imagemin: npm install -g imagemin-cli'",
+    "minify:css": "echo 'Install clean-css: npm install -g clean-css-cli'",
+    "minify:js": "echo 'Install uglify-js: npm install -g uglify-js'"
+  },
+  "keywords": [
+    "portfolio",
+    "cv",
+    "resume",
+    "personal-website",
+    "developer-portfolio",
+    "web-development",
+    "html5",
+    "css3",
+    "javascript",
+    "responsive-design"
+  ],
+  "author": "Pac Nolasco",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pacnolasco/pacnolasco.github.io.git"
+  },
+  "homepage": "https://pacnolasco.github.io",
+  "bugs": {
+    "url": "https://github.com/pacnolasco/pacnolasco.github.io/issues"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "devDependencies": {},
+  "dependencies": {},
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead",
+    "not ie <= 11"
+  ],
+  "private": true
+}

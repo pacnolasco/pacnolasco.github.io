@@ -1,0 +1,14 @@
+<svg width="400" height="300" viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="aboutBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f1f5f9;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#e2e8f0;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="400" height="300" fill="url(#aboutBg)" rx="12"/>
+  <rect x="50" y="50" width="300" height="200" fill="#3b82f6" rx="8"/>
+  <text x="200" y="120" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="white" text-anchor="middle">Software Engineer</text>
+  <text x="200" y="150" font-family="Arial, sans-serif" font-size="16" fill="white" text-anchor="middle">Java • Microservices</text>
+  <text x="200" y="175" font-family="Arial, sans-serif" font-size="16" fill="white" text-anchor="middle">Monitoring • DevOps</text>
+  <text x="200" y="200" font-family="Arial, sans-serif" font-size="16" fill="white" text-anchor="middle">Distributed Systems</text>
+</svg>

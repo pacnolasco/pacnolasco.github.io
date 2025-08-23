@@ -1,0 +1,15 @@
+<svg width="400" height="250" viewBox="0 0 400 250" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="project2Bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f8fafc;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#e2e8f0;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="400" height="250" fill="url(#project2Bg)" rx="8"/>
+  <rect x="30" y="30" width="340" height="190" fill="#f59e0b" rx="6"/>
+  <text x="200" y="80" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="white" text-anchor="middle">☕ Coffee App</text>
+  <text x="200" y="110" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="white" text-anchor="middle">Flutter Mobile Application</text>
+  <text x="200" y="135" font-family="Arial, sans-serif" font-size="12" fill="white" text-anchor="middle">Cross-platform Android App</text>
+  <text x="200" y="155" font-family="Arial, sans-serif" font-size="12" fill="white" text-anchor="middle">Flutter • Dart • Mobile UI/UX</text>
+  <text x="200" y="175" font-family="Arial, sans-serif" font-size="12" fill="white" text-anchor="middle">Coffee Shop Management</text>
+</svg>

@@ -1,0 +1,16 @@
+<svg width="400" height="250" viewBox="0 0 400 250" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="project3Bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f8fafc;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#e2e8f0;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="400" height="250" fill="url(#project3Bg)" rx="8"/>
+  <rect x="30" y="30" width="340" height="190" fill="#8b5cf6" rx="6"/>
+  <text x="200" y="70" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="white" text-anchor="middle">📊 Monitoring &</text>
+  <text x="200" y="95" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="white" text-anchor="middle">Observability Platform</text>
+  <text x="200" y="120" font-family="Arial, sans-serif" font-size="12" fill="white" text-anchor="middle">Professional Work at Feedzai</text>
+  <text x="200" y="140" font-family="Arial, sans-serif" font-size="12" fill="white" text-anchor="middle">Prometheus • Grafana • Graylog</text>
+  <text x="200" y="160" font-family="Arial, sans-serif" font-size="12" fill="white" text-anchor="middle">Jaeger • Docker • Microservices</text>
+  <text x="200" y="180" font-family="Arial, sans-serif" font-size="12" fill="white" text-anchor="middle">Distributed System Monitoring</text>
+</svg>
