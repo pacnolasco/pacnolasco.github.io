@@ -1,6 +1,55 @@
-# Pedro Castela Nolasco - Portfolio & CV Website
+# Pedro Castela Nolasco
 
-A modern, responsive portfolio website built with HTML5, CSS3, and JavaScript. This website serves as both a professional portfolio and CV, showcasing skills, experience, and projects.
+## 👨‍💻 About Me
+
+Hi, I'm **Pedro Castela Nolasco**, a passionate Software Engineer with expertise in architecting high-performance, high-availability solutions with a machine learning first approach for financial organizations.
+
+### 🎯 Professional Focus
+I specialize in working with critical real-time distributed architectures operating financial risk information flows, using technologies like Cassandra, RabbitMQ, Zookeeper, Ansible, Docker, Spark, and AWS cloud services.
+
+### 🌍 Global Experience
+I have traveled extensively across the APAC region (Singapore, Hong Kong, and Australia) to solve significant technical challenges and lead client renewals through both relational and technical expertise.
+
+### 📚 Education
+- **Master's Degree in Informatics Engineering** - University of Coimbra (2019-2021)
+  - Specialization in Software Engineering
+  - Final dissertation: "An information system for assessing and guiding industry 4.0 strategies"
+  - Developed web application using React.js, Node.js, and MySQL
+
+### 🚀 Current Role
+**Professional Software Engineer at Feedzai Portugal (Remote)**
+- Leading fraud detection solutions for multinational banking and e-commerce organizations
+- Machine learning approach for financial risk management
+- APAC region client engagement and technical leadership
+
+### 📱 Mobile Development
+I'm also an active mobile app developer with **8+ applications** published on Google Play Store, including:
+- Sleep Precheck ($2.49)
+- Handshake Trainer
+- Color Picker
+- Compliment Generator
+- Property Wishlist
+- Book Quote Saver
+- Fact About Today
+- Coffee App (400+ downloads)
+
+### 🔬 Research & Publications
+- **AMCIS 2023 Conference Paper**: "Reconciling Strategy, Maturity, and Performance Measurement in Industry 4.0"
+- **Master's Thesis**: Industry 4.0 strategy assessment system
+- **Technologies**: React.js, Node.js, MySQL, Flutter, Dart
+
+### 💼 Skills & Technologies
+- **Programming**: Java, JavaScript, Python, Dart
+- **Frameworks**: React.js, Node.js, Flutter, Spark
+- **Databases**: Cassandra, MySQL
+- **Cloud & DevOps**: AWS, Docker, Ansible, Prometheus, Grafana
+- **Monitoring**: Graylog, Jaeger, RabbitMQ, Zookeeper
+
+---
+
+## 🌐 Portfolio Website
+
+This repository contains my professional portfolio website - a modern, responsive site built with HTML5, CSS3, and JavaScript that showcases my skills, experience, and projects.
 
 ## 🌟 Features
 
@@ -226,4 +275,4 @@ If you have any questions or need help:
 
 **Built with ❤️ and lots of ☕ by Pedro Castela Nolasco**
 
-*Last updated: December 2024*
+*Last updated: December 2025*
