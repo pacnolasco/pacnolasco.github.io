@@ -67,33 +67,59 @@
         gap: 1.5rem;
     }
     
-    .timeline-content {
+    .experience .timeline-content {
         padding: 1.5rem;
     }
     
-    .timeline-container {
+    .experience .timeline-container {
         padding: 1rem 0;
     }
     
-    .timeline-line {
+    .experience .timeline-line {
         left: 30px;
         transform: none;
     }
     
-    .timeline-item {
+    .experience .timeline-item {
         flex-direction: row !important;
         margin-bottom: 2rem;
     }
     
-    .timeline-marker {
+    .experience .timeline-marker {
         min-width: 60px;
         margin-right: 1rem;
     }
     
-    .timeline-content {
+    .experience .timeline-content {
         max-width: none;
         margin: 0;
         flex: 1;
+    }
+
+    .education .timeline::before {
+        left: 18px;
+        transform: none;
+    }
+
+    .education .timeline-item,
+    .education .timeline-item:nth-child(odd),
+    .education .timeline-item:nth-child(even) {
+        margin-bottom: 1.6rem;
+    }
+
+    .education .timeline-item:nth-child(odd) .timeline-content,
+    .education .timeline-item:nth-child(even) .timeline-content {
+        margin: 0 0 0 45px;
+        text-align: left;
+    }
+
+    .education .timeline-content::before,
+    .education .timeline-item:nth-child(odd) .timeline-content::before,
+    .education .timeline-item:nth-child(even) .timeline-content::before {
+        left: -33px;
+        right: auto;
+        width: 14px;
+        height: 14px;
     }
     
     .experience-grid {
@@ -107,6 +133,7 @@
     
     .experience-logo {
         width: 50px;
+        height: 50px;
     }
     
     .project-categories {
@@ -120,8 +147,6 @@
         max-width: 200px;
         padding: 12px 16px;
         font-size: 0.85rem;
-    }
-        height: 50px;
     }
     
     .experience-info h3 {
@@ -195,12 +220,12 @@
         position: relative;
     }
     
-    .timeline-date-badge {
+    .experience .timeline-date-badge {
         font-size: 0.8rem;
         padding: 0.4rem 0.8rem;
     }
     
-    .timeline-dot {
+    .experience .timeline-dot {
         width: 16px;
         height: 16px;
     }
@@ -226,6 +251,10 @@
     .hero-buttons {
         gap: 0.8rem;
     }
+
+    .hero-tags {
+        justify-content: center;
+    }
     
     .btn {
         padding: 10px 20px;
@@ -241,7 +270,11 @@
         font-size: 2rem;
     }
     
-    .timeline-content {
+    .experience .timeline-content {
+        padding: 1.2rem;
+    }
+
+    .education .timeline-content {
         padding: 1.2rem;
     }
     
@@ -308,11 +341,11 @@
         font-size: 1rem;
     }
     
-    .timeline-content h3 {
+    .education .timeline-content h3 {
         font-size: 1.2rem;
     }
     
-    .timeline-content h4 {
+    .education .timeline-content h4 {
         font-size: 1rem;
     }
     
@@ -405,7 +438,11 @@
         padding: 50px 0;
     }
     
-    .timeline-content {
+    .experience .timeline-content {
+        padding: 1rem;
+    }
+
+    .education .timeline-content {
         padding: 1rem;
     }
     
@@ -480,13 +517,13 @@
     .project-card {
         break-inside: avoid;
         box-shadow: none;
-        border: 1px solid #ddd;
+        border: 1px solid var(--border-color);
     }
     
     .skill-item {
         break-inside: avoid;
         box-shadow: none;
-        border: 1px solid #ddd;
+        border: 1px solid var(--border-color);
     }
     
     body {
@@ -525,7 +562,8 @@
         --bg-secondary: #2d3748;
         --text-primary: #f7fafc;
         --text-secondary: #e2e8f0;
-        --accent: #667eea;
+        --primary-color: #667eea;
+        --secondary-color: #4c51bf;
     }
     
     body {
@@ -542,6 +580,7 @@
     }
     
     .about,
+    .education,
     .projects,
     .contact {
         background: var(--bg-primary);

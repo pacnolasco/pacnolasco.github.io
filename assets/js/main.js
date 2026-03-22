@@ -433,8 +433,8 @@ function toggleExperience(header) {
 
 // Region filter functionality
 function initRegionFilter() {
-    const filterButtons = document.querySelectorAll('.filter-btn');
-    const timelineItems = document.querySelectorAll('.timeline-item');
+    const filterButtons = document.querySelectorAll('.experience .filter-btn');
+    const timelineItems = document.querySelectorAll('.experience .timeline-container .timeline-item[data-region]');
     
     console.log('Filter buttons found:', filterButtons.length);
     console.log('Timeline items found:', timelineItems.length);

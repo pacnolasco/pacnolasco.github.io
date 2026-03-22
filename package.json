@@ -4,9 +4,9 @@
   "description": "Professional portfolio and CV website for Pac Nolasco",
   "main": "index.html",
   "scripts": {
-    "start": "python -m http.server 8000",
-    "dev": "python -m http.server 8000",
-    "serve": "python -m http.server 8000",
+    "start": "python3 -m http.server 8000",
+    "dev": "python3 -m http.server 8000",
+    "serve": "python3 -m http.server 8000",
     "build": "echo 'No build step required for static site'",
     "deploy": "echo 'Deploy to GitHub Pages: git push origin main'",
     "test": "echo 'Open index.html in browser to test'",
